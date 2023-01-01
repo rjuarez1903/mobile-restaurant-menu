@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2cd05a3c76.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/hamburger.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Mobile Restaurant Menu</title>
+</head>
+<body>
+    <div class="overlay">
+        <header>
+            <div>
+                <h1>Jimmy's Diner</h1>
+                <h2>The best burgers and pizzas in town.</h2>
+            </div>
+        </header>
+        <main>
+            <section class="products-container">   
+
+            </section>
+
+            <section class="order-section hidden">
+                <h3>Your order</h3>
+                <div class="order-container">
+
+                </div>
+                <div class="total-price-container">
+                    
+                </div>
+                <button type="button" class="btn btn-complete-order">Complete order</button>
+            </section>
+            <form action="#" class="order-form hidden">
+                <h3>Enter card details</h3>
+                <input type="text" placeholder="Enter your name" id="name" required>
+                <input type="text" placeholder="Enter card number" required>
+                <input type="text" placeholder="Enter CVV" required>
+                <button type="submit" class="btn btn-pay">Pay</button>
+            </form>
+            <div class="succeed-message hidden">
+
+            </div>
+        </main>
+        <footer>
+            <small>®Rodrigo Juarez</small>
+        </footer>
+    </div>
+
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>
